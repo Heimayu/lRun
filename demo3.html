@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>demo3</title>
+	<link rel="stylesheet" href="css/lRun.css">
+</head>
+<body>
+	<div id="wrapper">
+		<ul>
+			<li class="now"><img src="img/01.jpg" alt=""></li>
+			<li><img src="img/02.jpg" alt=""></li>
+			<li><img src="img/03.jpg" alt=""></li>
+			<li><img src="img/04.jpg" alt=""></li>
+			<li><img src="img/05.jpg" alt=""></li>
+			<li><img src="img/06.jpg" alt=""></li>
+			<li><img src="img/07.jpg" alt=""></li>
+			<li><img src="img/08.jpg" alt=""></li>
+		</ul>			
+	</div>
+	
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/lRun.js"></script>
+	<script type="text/javascript">
+		$('#wrapper').lRun({
+			boxWidth:1100,//跑动窗口宽度
+			boxHeight:400,//跑动窗口高度
+			imgWidth:200,//图片宽度
+			imgHeight:400,//图片高度
+			direction:'right'
+		});
+	</script>	
+</body>
+</html>
